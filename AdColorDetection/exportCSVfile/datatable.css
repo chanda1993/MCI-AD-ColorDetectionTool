@@ -1,0 +1,97 @@
+* {
+  font-family: sans-serif; /* Change your font family */
+}
+
+.content-table {
+
+  display: flex;
+  font-size: 0.6em;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+}
+
+.content-table th,
+.content-table td {
+  padding: 15px 12px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  /*font-weight: bold;*/
+  color: #009879;
+}
+.button2 {
+  /*display: flex;*/
+  height: 50px;
+  width: fit-content;
+  padding: 0;
+  align-items: center;
+  background: #009578;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.button:hover {
+  background: #008168;
+}
+
+.button:active {
+  background: #006e58;
+}
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0px 95px;
+  color: #fff;
+  height: 100%;
+}
+
+.button__icon {
+  font-size: 1.9em;
+  background: rgba(0, 0, 0, 0.08);
+}
+.container{
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+section{
+  height: auto;
+
+
+}
+.containerbtn{
+  /*background-color: #333333;*/
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

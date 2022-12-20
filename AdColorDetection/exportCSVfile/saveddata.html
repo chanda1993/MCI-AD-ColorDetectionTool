@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="downloadexportcvs.js" defer></script>
+<script type="text/javascript" src="saveddata.html" ></script>
+<script type="text/javascript" src="../credentialsPage/index.js"></script>
+<head>
+    <title>Subjects Dataset</title>
+    <link rel="stylesheet" href="../exportCSVfile/datatable.css" />
+  </head>
+
+  <body>
+  <section>
+    <div class="container">
+      <h1>
+        <table class="content-table" id="myTable">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>R-values</th>
+        <th>Avg</th>
+        <th>G-values</th>
+         <th>Avg</th>
+        <th>B-values</th>
+        <th>Avg</th>
+        <th>Tavg</th>
+          <th>Comment</th>
+    </tr>
+  </thead>
+</table>
+          <script>
+        showData();
+    </script>
+      </h1>
+    </div>
+    <div class="containerbtn">
+
+        <a href="index.html">
+            <button type="button" onclick="nextSubject()" class="button2">
+                <span class="button__text">Next Subject</span>
+            </button>
+
+        </a>
+
+         <a>
+            <button type="button" onclick="delrow()" class="button2">
+                <span class="button__text">Delete Subject</span>
+            </button>
+        </a>
+
+        <a href="index.html">
+            <button type="button" onclick="exportTableToCSV('Dataset.csv')" class="button2">
+                <span class="button__text">Download</span>
+            </button>
+
+        </a>
+  </div>
+  </section>
+  </body>
+
+</html>
+
